@@ -6,7 +6,9 @@
 //  Copyright © 2017 Benjamin Walton. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
+
 @testable import AssessmentApp
 
 class AssessmentAppTests: XCTestCase {
