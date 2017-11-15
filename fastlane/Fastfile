@@ -12,8 +12,8 @@ platform :ios do
     scan(scheme: "AssessmentApp")
   end
 
-  desc "Runs All Tests"
-  lane :test_all do
+  desc "Runs UI Tests"
+  lane :ui_tests do
     scan(scheme: "AssessmentAppUITests")
   end
 end 
