@@ -25,6 +25,6 @@ platform :ios do
     gym(scheme: "AssessmentApp",
         workspace: "AssessmentApp.xcworkspace",
         clean: true)
-    #pilot
+    pilot
   end
 end 
