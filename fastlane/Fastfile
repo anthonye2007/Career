@@ -9,11 +9,11 @@ platform :ios do
 
   desc "Run Unit Tests"
   lane :unit_tests do
-    scan(scheme: "Pods-AssessmentAppTests")
+    scan(scheme: "AssessmentApp")
   end
 
   desc "Runs All Tests"
   lane :test_all do
-    scan(scheme: "AssessmentApp")
+    scan(scheme: "AssessmentAppUITests")
   end
 end 
