@@ -242,7 +242,7 @@
 				TargetAttributes = {
 					B5CFE9081FBB501A00EF4F7C = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					B5CFE91C1FBB501A00EF4F7C = {
 						CreatedOnToolsVersion = 9.1;
@@ -637,12 +637,14 @@
 			baseConfigurationReference = 3B9C79A3C214DDEF396B6D9C /* Pods-AssessmentApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = FBLG66BV63;
 				INFOPLIST_FILE = AssessmentApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pillartechnology.AssessmentApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "11152daf-d3ab-4ba4-a1c0-412a1fc47628";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.pillartechnology.AssessmentApp";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -653,12 +655,15 @@
 			baseConfigurationReference = 8D760057574B793B2426FEDB /* Pods-AssessmentApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = FBLG66BV63;
 				INFOPLIST_FILE = AssessmentApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pillartechnology.AssessmentApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2b05d8aa-aa1d-426b-aea0-26a3b3367945";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.pillartechnology.AssessmentApp";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
