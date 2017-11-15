@@ -12,7 +12,7 @@ target 'AssessmentApp' do
   end
 
   target 'AssessmentAppUITests' do
-    
+    inherit! :search_paths    
     pod 'Nimble'
     pod 'Quick'
   end
