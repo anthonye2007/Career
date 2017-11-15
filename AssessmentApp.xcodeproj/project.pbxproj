@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F8F4719F60D11A8A245185 /* Pods_AssessmentApp_AssessmentAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF3D285AE15B97DB0AD7C38 /* Pods_AssessmentApp_AssessmentAppUITests.framework */; };
 		21F34B7B20DD76764CE18378 /* Pods_AssessmentAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B8C03F96D9A6D8FE5340FB /* Pods_AssessmentAppUITests.framework */; };
-		7AFEB26CF4A2BE94B29445AB /* Pods_AssessmentApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EC4E7AB5FC3CACE29396B5 /* Pods_AssessmentApp.framework */; };
+		24BF5565338E087FC2FE7061 /* libPods-AssessmentApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05129405BF76BA1B2B23C351 /* libPods-AssessmentApp.a */; };
 		B5CFE90D1FBB501A00EF4F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFE90C1FBB501A00EF4F7C /* AppDelegate.swift */; };
 		B5CFE90F1FBB501A00EF4F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFE90E1FBB501A00EF4F7C /* ViewController.swift */; };
 		B5CFE9121FBB501A00EF4F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CFE9101FBB501A00EF4F7C /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 		B5CFE9221FBB501A00EF4F7C /* AssessmentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFE9211FBB501A00EF4F7C /* AssessmentAppTests.swift */; };
 		B5CFE92D1FBB501A00EF4F7C /* AssessmentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFE92C1FBB501A00EF4F7C /* AssessmentAppUITests.swift */; };
 		DA2ED64A7223C56C10E4DC86 /* Pods_AssessmentAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A0A1D1028AA1C8D3E495D3 /* Pods_AssessmentAppTests.framework */; };
+		E18A39F067023E9E6025FA63 /* Pods_AssessmentApp_AssessmentAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A272D064388BF202BA1DE0 /* Pods_AssessmentApp_AssessmentAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +40,17 @@
 
 /* Begin PBXFileReference section */
 		03A0A1D1028AA1C8D3E495D3 /* Pods_AssessmentAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssessmentAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05129405BF76BA1B2B23C351 /* libPods-AssessmentApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AssessmentApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6B6E6D7FDAD5F60F848873 /* Pods-AssessmentAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentAppUITests/Pods-AssessmentAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		31EC4E7AB5FC3CACE29396B5 /* Pods_AssessmentApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssessmentApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25987E58F8C38AF1A1E1B790 /* Pods-AssessmentApp-AssessmentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp-AssessmentAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppTests/Pods-AssessmentApp-AssessmentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B9C79A3C214DDEF396B6D9C /* Pods-AssessmentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp/Pods-AssessmentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4E3437CCEBE958955DA0D305 /* Pods-AssessmentApp-AssessmentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp-AssessmentAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppTests/Pods-AssessmentApp-AssessmentAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		732500D59EA54ABD5AAFBEE8 /* Pods-AssessmentAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentAppUITests/Pods-AssessmentAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C10704E4D4039720F8A86C6 /* Pods-AssessmentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentAppTests/Pods-AssessmentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D760057574B793B2426FEDB /* Pods-AssessmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp/Pods-AssessmentApp.release.xcconfig"; sourceTree = "<group>"; };
+		8EF3D285AE15B97DB0AD7C38 /* Pods_AssessmentApp_AssessmentAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssessmentApp_AssessmentAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D7DBAA320594C1319126CD /* Pods-AssessmentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentAppTests/Pods-AssessmentAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A175A95D095BF6432C1F5D71 /* Pods-AssessmentApp-AssessmentAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp-AssessmentAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppUITests/Pods-AssessmentApp-AssessmentAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7B8C03F96D9A6D8FE5340FB /* Pods_AssessmentAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssessmentAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CFE9091FBB501A00EF4F7C /* AssessmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssessmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CFE90C1FBB501A00EF4F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,8 @@
 		B5CFE9281FBB501A00EF4F7C /* AssessmentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CFE92C1FBB501A00EF4F7C /* AssessmentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentAppUITests.swift; sourceTree = "<group>"; };
 		B5CFE92E1FBB501A00EF4F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4C54870BCF84FB999E8445 /* Pods-AssessmentApp-AssessmentAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp-AssessmentAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppUITests/Pods-AssessmentApp-AssessmentAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6A272D064388BF202BA1DE0 /* Pods_AssessmentApp_AssessmentAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssessmentApp_AssessmentAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFEB26CF4A2BE94B29445AB /* Pods_AssessmentApp.framework in Frameworks */,
+				24BF5565338E087FC2FE7061 /* libPods-AssessmentApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2ED64A7223C56C10E4DC86 /* Pods_AssessmentAppTests.framework in Frameworks */,
+				E18A39F067023E9E6025FA63 /* Pods_AssessmentApp_AssessmentAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F34B7B20DD76764CE18378 /* Pods_AssessmentAppUITests.framework in Frameworks */,
+				04F8F4719F60D11A8A245185 /* Pods_AssessmentApp_AssessmentAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +108,10 @@
 				732500D59EA54ABD5AAFBEE8 /* Pods-AssessmentAppUITests.release.xcconfig */,
 				3B9C79A3C214DDEF396B6D9C /* Pods-AssessmentApp.debug.xcconfig */,
 				8D760057574B793B2426FEDB /* Pods-AssessmentApp.release.xcconfig */,
+				25987E58F8C38AF1A1E1B790 /* Pods-AssessmentApp-AssessmentAppTests.debug.xcconfig */,
+				4E3437CCEBE958955DA0D305 /* Pods-AssessmentApp-AssessmentAppTests.release.xcconfig */,
+				A175A95D095BF6432C1F5D71 /* Pods-AssessmentApp-AssessmentAppUITests.debug.xcconfig */,
+				CF4C54870BCF84FB999E8445 /* Pods-AssessmentApp-AssessmentAppUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -158,9 +172,11 @@
 		C747E0FCCCAC9A21439F4C90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				31EC4E7AB5FC3CACE29396B5 /* Pods_AssessmentApp.framework */,
 				03A0A1D1028AA1C8D3E495D3 /* Pods_AssessmentAppTests.framework */,
 				A7B8C03F96D9A6D8FE5340FB /* Pods_AssessmentAppUITests.framework */,
+				05129405BF76BA1B2B23C351 /* libPods-AssessmentApp.a */,
+				E6A272D064388BF202BA1DE0 /* Pods_AssessmentApp_AssessmentAppTests.framework */,
+				8EF3D285AE15B97DB0AD7C38 /* Pods_AssessmentApp_AssessmentAppUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -315,7 +331,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentAppTests/Pods-AssessmentAppTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppTests/Pods-AssessmentApp-AssessmentAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6565E078109658DD2851286F /* [CP] Check Pods Manifest.lock */ = {
@@ -329,7 +345,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AssessmentAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AssessmentApp-AssessmentAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -348,7 +364,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentAppUITests/Pods-AssessmentAppUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppUITests/Pods-AssessmentApp-AssessmentAppUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		761C5081D3AFE7519ADBB372 /* [CP] Embed Pods Frameworks */ = {
@@ -357,7 +373,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentAppUITests/Pods-AssessmentAppUITests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppUITests/Pods-AssessmentApp-AssessmentAppUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -368,7 +384,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentAppUITests/Pods-AssessmentAppUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppUITests/Pods-AssessmentApp-AssessmentAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		97A10C7FB71F443E77D1B088 /* [CP] Copy Pods Resources */ = {
@@ -397,7 +413,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AssessmentAppUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AssessmentApp-AssessmentAppUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -428,7 +444,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentAppTests/Pods-AssessmentAppTests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppTests/Pods-AssessmentApp-AssessmentAppTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -439,7 +455,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentAppTests/Pods-AssessmentAppTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AssessmentApp-AssessmentAppTests/Pods-AssessmentApp-AssessmentAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E313D2126110A6DC6AD3EE08 /* [CP] Embed Pods Frameworks */ = {
@@ -671,7 +687,7 @@
 		};
 		B5CFE9351FBB501A00EF4F7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C10704E4D4039720F8A86C6 /* Pods-AssessmentAppTests.debug.xcconfig */;
+			baseConfigurationReference = 25987E58F8C38AF1A1E1B790 /* Pods-AssessmentApp-AssessmentAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -687,7 +703,7 @@
 		};
 		B5CFE9361FBB501A00EF4F7C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92D7DBAA320594C1319126CD /* Pods-AssessmentAppTests.release.xcconfig */;
+			baseConfigurationReference = 4E3437CCEBE958955DA0D305 /* Pods-AssessmentApp-AssessmentAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -703,7 +719,7 @@
 		};
 		B5CFE9381FBB501A00EF4F7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F6B6E6D7FDAD5F60F848873 /* Pods-AssessmentAppUITests.debug.xcconfig */;
+			baseConfigurationReference = A175A95D095BF6432C1F5D71 /* Pods-AssessmentApp-AssessmentAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -720,7 +736,7 @@
 		};
 		B5CFE9391FBB501A00EF4F7C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 732500D59EA54ABD5AAFBEE8 /* Pods-AssessmentAppUITests.release.xcconfig */;
+			baseConfigurationReference = CF4C54870BCF84FB999E8445 /* Pods-AssessmentApp-AssessmentAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

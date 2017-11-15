@@ -30,11 +30,21 @@ xcode-select --install
 
 # Available Actions
 ## iOS
-### ios test_all
+### ios unit_tests
 ```
-fastlane ios test_all
+fastlane ios unit_tests
 ```
-Runs All Tests
+Run Unit Tests
+### ios ui_tests
+```
+fastlane ios ui_tests
+```
+Runs UI Tests
+### ios beta
+```
+fastlane ios beta
+```
+Push to testflight
 
 ----
 
