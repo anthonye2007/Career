@@ -1,0 +1,6 @@
+language: swift
+osx_image: xcode9.1
+xcode_workspace: AssessmentApp.xcodeworkspace
+script:
+  - bundle exec fastlane unit_tests
+  - bundle exec fastlane ui_tests 
