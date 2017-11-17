@@ -2,9 +2,8 @@ language: swift
 osx_image: xcode9.1
 xcode_workspace: AssessmentApp.xcodeworkspace
 script:
-- bundle exec fastlane unit_tests
-- bundle exec fastlane ui_tests
+- bundle exec fastlane tests
 notifications:
   slack:
-    on_success: change
     secure: oZnt4o8edYcglsZzL+rPVuF40gS1BekKoVPtihIAGoSUiIAeZ7NEtmrqcNzazJp3o1JuKwTp+2m7Eew/4kovr+hhl1+fMw7ZO3yc+uC7DzjI46FW2nMaZdDNvsRFhvikiWZmoV2vBaK9M7xOclprntU45LTKTipgrjPIgKKN7qvK8bQpUYMYE6zDHONE0tghdaNrfQv3iiCeDdgTk9FKY07TbMMJz+2CSHk75zpF4XS76Nd84p87P+10JnLkKXhEBuDyL8esaAC+h9gdcIYdlhYImPL1z8utUcHEvEi0WLJ3DOqCo7wFAidS+fW0LbalxtfW+ejT7vTcSXoKF4CJMSK9lASz23HZU8oybmOdnBsRMM0WSYCRsKZIQPAgiyLKMsjTpNmi5QMTX/Rjn04VWnUZVrNgMOj31Q4MfGWuAFlw82WZKoITSZ1qvyq7A+uq0BC59aE28Q2XqjvIRLjHwDOste91D+BPUtO735IdEGov/DIbA+vAB99MoD5Fr98fifkhSeo/HOitpbsEj9ZHEyhkjjm34RbM6eTl04SDo2FuZn/QaQDdnjh+QOh5P2VKSpdpW2JU99a9aYQYRl2jYO4S1k+ClfyODGrINag2lciKiRUBEYvPUpIpx5KCywkIHKwvzuHvFC1auxfOOXaoIk0G78nShaH+dfeDXkFeU/c=
+    on_success: change
