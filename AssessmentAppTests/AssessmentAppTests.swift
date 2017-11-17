@@ -18,7 +18,7 @@ class AssessmentAppTests: QuickSpec {
         describe("test") {
             context("failing test") {
                 it("travis stops build") {
-                    expect(1).to(equal(2))
+                    expect(1).to(equal(1))
                 }
             }
         }
