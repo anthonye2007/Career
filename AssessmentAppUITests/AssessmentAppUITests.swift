@@ -23,8 +23,10 @@ class AssessmentAppUITests: QuickSpec {
             }
 
             context("is clicked") {
+                let loginButton = self.app.buttons["Login"]
+                
                 beforeEach {
-                    self.app.buttons["Login"].tap()
+                    loginButton.tap()
                 }
                 
                 it("should render the question view") {
