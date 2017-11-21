@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AEE395EAF5558E53264FBDC /* Pods_AssessmentApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DD5B04012C25A7FD53E838 /* Pods_AssessmentApp.framework */; };
+		6509EAE6C97B66EC71B45B0C /* Pods_AssessmentAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A106B09714D8EB44D2DB13F8 /* Pods_AssessmentAppTests.framework */; };
+		70474556F3C7D859685BB626 /* Pods_AssessmentAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81712F858F0648F7FFDA947 /* Pods_AssessmentAppUITests.framework */; };
+		744F2A301FC485EA00637ED4 /* QuestionViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744F2A2F1FC485EA00637ED4 /* QuestionViewControllerTests.swift */; };
+		74ED819F1FC4843F00C79C9D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED819E1FC4843F00C79C9D /* QuestionViewController.swift */; };
 		B5913FE01FC328EB002435E4 /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5913FDF1FC328EB002435E4 /* BackgroundGradient.swift */; };
 		B5913FE21FC32A10002435E4 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5913FE11FC32A10002435E4 /* Palette.swift */; };
 		B5CFE90D1FBB501A00EF4F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFE90C1FBB501A00EF4F7C /* AppDelegate.swift */; };
@@ -53,6 +58,8 @@
 		0F6B6E6D7FDAD5F60F848873 /* Pods-AssessmentAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentAppUITests/Pods-AssessmentAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B9C79A3C214DDEF396B6D9C /* Pods-AssessmentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp/Pods-AssessmentApp.debug.xcconfig"; sourceTree = "<group>"; };
 		732500D59EA54ABD5AAFBEE8 /* Pods-AssessmentAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentAppUITests/Pods-AssessmentAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		744F2A2F1FC485EA00637ED4 /* QuestionViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewControllerTests.swift; sourceTree = "<group>"; };
+		74ED819E1FC4843F00C79C9D /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		8C10704E4D4039720F8A86C6 /* Pods-AssessmentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentAppTests/Pods-AssessmentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D760057574B793B2426FEDB /* Pods-AssessmentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentApp/Pods-AssessmentApp.release.xcconfig"; sourceTree = "<group>"; };
 		92D7DBAA320594C1319126CD /* Pods-AssessmentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssessmentAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssessmentAppTests/Pods-AssessmentAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEE395EAF5558E53264FBDC /* Pods_AssessmentApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6509EAE6C97B66EC71B45B0C /* Pods_AssessmentAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70474556F3C7D859685BB626 /* Pods_AssessmentAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +156,7 @@
 				B5CFE9131FBB501A00EF4F7C /* Assets.xcassets */,
 				B5CFE9151FBB501A00EF4F7C /* LaunchScreen.storyboard */,
 				B5CFE9181FBB501A00EF4F7C /* Info.plist */,
+				74ED819E1FC4843F00C79C9D /* QuestionViewController.swift */,
 			);
 			path = AssessmentApp;
 			sourceTree = "<group>";
@@ -155,6 +166,7 @@
 			children = (
 				B5CFE9211FBB501A00EF4F7C /* AssessmentAppTests.swift */,
 				B5CFE9231FBB501A00EF4F7C /* Info.plist */,
+				744F2A2F1FC485EA00637ED4 /* QuestionViewControllerTests.swift */,
 			);
 			path = AssessmentAppTests;
 			sourceTree = "<group>";
@@ -261,6 +273,7 @@
 					B5CFE91C1FBB501A00EF4F7C = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						TestTargetID = B5CFE9081FBB501A00EF4F7C;
 					};
 					B5CFE9271FBB501A00EF4F7C = {
 						CreatedOnToolsVersion = 9.1;
@@ -484,6 +497,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5CFE90F1FBB501A00EF4F7C /* ViewController.swift in Sources */,
+				74ED819F1FC4843F00C79C9D /* QuestionViewController.swift in Sources */,
 				B5913FE01FC328EB002435E4 /* BackgroundGradient.swift in Sources */,
 				B5CFE90D1FBB501A00EF4F7C /* AppDelegate.swift in Sources */,
 				B5913FE21FC32A10002435E4 /* Palette.swift in Sources */,
@@ -494,6 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744F2A301FC485EA00637ED4 /* QuestionViewControllerTests.swift in Sources */,
 				B5CFE9221FBB501A00EF4F7C /* AssessmentAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -692,6 +707,8 @@
 			baseConfigurationReference = 8C10704E4D4039720F8A86C6 /* Pods-AssessmentAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"BUNDLE_LOADER[arch=*]" = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBLG66BV63;
 				INFOPLIST_FILE = AssessmentAppTests/Info.plist;
@@ -700,6 +717,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssessmentApp.app/AssessmentApp";
 			};
 			name = Debug;
 		};
@@ -708,6 +726,7 @@
 			baseConfigurationReference = 92D7DBAA320594C1319126CD /* Pods-AssessmentAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FBLG66BV63;
 				INFOPLIST_FILE = AssessmentAppTests/Info.plist;
@@ -716,6 +735,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssessmentApp.app/AssessmentApp";
 			};
 			name = Release;
 		};
