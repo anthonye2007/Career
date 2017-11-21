@@ -17,13 +17,18 @@ class AssessmentAppUITests: QuickSpec {
     override func spec() {
         
         describe("login button") {
+            let loginButton = self.app.buttons["Login"]
+            
             beforeEach {
                 self.continueAfterFailure = false
                 self.app.launch()
             }
+            
+            it("appears when the view is loaded") {
+                expect(loginButton.isHittable).toEventually(beTrue())
+            }
 
             context("is clicked") {
-                let loginButton = self.app.buttons["Login"]
                 
                 beforeEach {
                     loginButton.tap()
