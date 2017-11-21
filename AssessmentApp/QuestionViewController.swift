@@ -14,7 +14,7 @@ class QuestionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        firstQuestion.text = "bluh"
+        firstQuestion.text = "I like to work with computers"
     }
     
     override func didReceiveMemoryWarning() {

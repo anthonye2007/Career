@@ -1,5 +1,5 @@
 //
-//  QuestionViewControllerTests.swift
+//  ViewControllerTest.swift
 //  AssessmentAppTests
 //
 //  Created by Zachary Hardin on 11/21/17.
@@ -10,7 +10,7 @@ import XCTest
 
 @testable import AssessmentApp
 
-class QuestionViewControllerTests: XCTestCase {
+class ViewControllerTest: XCTestCase {
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
     
     override func setUp() {
@@ -21,10 +21,10 @@ class QuestionViewControllerTests: XCTestCase {
         super.tearDown()
     }
     
-    func testShouldContainAQuestion() {
-        let vc: QuestionViewController = storyboard.instantiateViewController(withIdentifier: "QuestionViewController") as! QuestionViewController
-        _ = vc.view
+    func testExample() {
+        let viewController: ViewController = storyboard.instantiateInitialViewController() as! ViewController
+        _ = viewController.view
         
-        XCTAssertEqual(vc.firstQuestion.text, "I like to work with computers")
+        XCTAssertNotNil(viewController)
     }
 }
